@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body style="margin-bottom: 400px">
     <header>
@@ -18,121 +25,113 @@
         </ul>
       </nav>
     </header>
-    <hr/>
     <main>
-      <section id="about">
-        <h2>About</h2>
-        <figure>
-            <blockquote cite="https://www.huxley.net/bnw/four.html">
-                <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
-            </blockquote>
-            <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
-        </figure>
-        <img
-          width="150px"
-          height="150px"
-          src="./img_avatar2.png"
-          alt="avatar"
-        />
-       <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          repellendus praesentium minus officia doloremque, aut a facere eveniet
-          corrupti, labore natus. Ea sapiente voluptatem consequatur inventore
-          earum eaque voluptas doloremque quia consequuntur cumque dicta odit
-          dolore quibusdam in repudiandae laborum, quos quasi vitae, molestias
-          eveniet corporis facilis eligendi. Repellendus, aliquid.
-        </p>
-      </section>
-      <hr/>
-      <section id="skills">
-        <h2>Skills</h2>
-        <ol type="a">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
-          <li>PHP</li>
-          <li>Vue</li>
-          <li>Bootstrap</li>
-          <li>React</li>
-        </ol>
-      </section>
-      <hr/>
-      <section id="experience">
-        <h2>Experience</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Period</th>
-              <th>Place</th>
-              <th>Position/Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2019 - present</td>
-              <td>X_company</td>
-              <td>
-                <section>
-                  <h3>FrontEnd Developer</h3>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Odit nobis quis odio, voluptates eveniet nulla aliquam iste
-                    expedita neque repellendus?
-                  </p>
-                </section>
-              </td>
-            </tr>
-            <tr>
-              <td>2016 - 2019</td>
-              <td>Y_company</td>
-              <td>
-                <details>
-                  <summary>Position 1</summary>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Odit nobis quis odio, voluptates eveniet nulla aliquam iste
-                    expedita neque repellendus?
-                  </p>                  
-                </details>
+      <div class="section__left">
+        <section id="about">
+          <h2>About</h2>
+          <img
+            width="150px"
+            height="150px"
+            src="./img_avatar2.png"
+            alt="avatar"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            repellendus praesentium minus officia doloremque, aut a facere
+            eveniet corrupti, labore natus. Ea sapiente voluptatem consequatur
+            inventore earum eaque voluptas doloremque quia consequuntur cumque
+            dicta odit dolore quibusdam in repudiandae laborum, quos quasi
+            vitae, molestias eveniet corporis facilis eligendi. Repellendus,
+            aliquid.
+          </p>
+        </section>
+      </div>
+      <div class="section__right">
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>PHP</li>
+            <li>Vue</li>
+            <li>Bootstrap</li>
+            <li>React</li>
+          </ul>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Period</th>
+                <th>Place</th>
+                <th>Position/Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2019 - present</td>
+                <td>X_company</td>
+                <td>
+                  <section>
+                    <h3>FrontEnd Developer</h3>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Odit nobis quis odio, voluptates eveniet nulla aliquam
+                      iste expedita neque repellendus?
+                    </p>
+                  </section>
+                </td>
+              </tr>
+              <tr>
+                <td>2016 - 2019</td>
+                <td>Y_company</td>
+                <td>
+                  <details>
+                    <summary>Position 1</summary>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Odit nobis quis odio, voluptates eveniet nulla aliquam
+                      iste expedita neque repellendus?
+                    </p>
+                  </details>
                   <details>
                     <summary>Position 2</summary>
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Odit nobis quis odio, voluptates eveniet nulla aliquam iste
-                      expedita neque repellendus?
+                      Odit nobis quis odio, voluptates eveniet nulla aliquam
+                      iste expedita neque repellendus?
                     </p>
                   </details>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <hr/>
-      <section id="contact">
-        <h2>Contact</h2>
-        <ul>
-          <li>Tel:<a href="tel:+373 79777777"> +37379777777</a></li>
-          <li>Email: alice@gmail.com</li>
-          <li>
-            Address
-            <address>
-              Written by
-              <a href="mailto:alice@gmail.com">Alice Wonder</a>.<br />
-              Visit us at:<br />
-              Example.com<br />
-              Box 564, Disneyland<br />
-              USA
-            </address>
-          </li>
-          <li>Website: https://ok.com</li>
-        </ul>
-      </section>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li>Tel:<a href="tel:+373 79777777"> +37379777777</a></li>
+            <li>Email: alice@gmail.com</li>
+            <li>
+              Address
+              <address>
+                Written by
+                <a href="mailto:alice@gmail.com">Alice Wonder</a>.<br />
+                Visit us at:<br />
+                Example.com<br />
+                Box 564, Disneyland<br />
+                USA
+              </address>
+            </li>
+            <li>Website: https://ok.com</li>
+          </ul>
+        </section>
+      </div>
     </main>
     <footer>
-       
-        <div align="center">
-            Copyright &copy; 2021, X_Company
-        </div>
+      <div align="center">Copyright &copy; 2021, X_Company</div>
     </footer>
   </body>
 </html>
